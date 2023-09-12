@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contato</title>
+    
+    <!--Nome Autor-->
+    <meta name="author" content="Mykhael Aguiar"/> 
+
+    <!--Indexação do mecanismo de busca-->
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="senai, mykhael,aguiar,front-end, front, end, front end, promação, nav, navbar,menu, carrosel,carousel"/>
+    <meta name="description" content="Essa pagina e um teste feito com bootstrap"/>
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--Codigo Icone-->
+    <link href="../img/icon/icon1.png" rel="shortcut icon" type="image/png"/>
+
+
+  </head>  
+
+    <body background="../img/BackGround.jpg">
+    
+        <!--NAV BAR-->
+      <nav class="navbar navbar-expand-lg bg-dark menu-borda " data-bs-theme="dark"> 
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../Page/index.html">EdgeGames</a>
+          <img src="../img/icon/icon2.png" alt="Bootstrap" width="30" height="24">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Page/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../SitesSeconds/Contato.html">Contato</a>
+              </li>   
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/?locale=pt_BR">Facebook </a>  
+              </li>             
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--FIM DO NAVBAR-->      
+  
+        <div class="container" data-bs-theme="white">
+          
+          <div class="row">
+            <div class="col-9"><br><br>
+              <h6 class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top fs-3"> </h6></div>
+            <div class="col-6 fs-8"><br>                             
+                
+                <div class="row justify-content-center ">  
+                  <h3> Preencha para nos contatar</h3>                              
+                    <div class="col">
+                          <div class="row g-3">
+                              <div class="col">
+                                <input type="text" class="form-control" placeholder="Primeiro Nome" aria-label="Primeiro Nome">
+                              </div>
+                              <div class="col">
+                                <input type="text" class="form-control" placeholder="Segundo Nome" aria-label="Segundo Nome">
+                              </div>
+                            
+                            <form>
+                                <div class="row mb-3">
+                                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                    <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email@exemplo.com">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="inputTel3" class="col-sm-2 col-form-label">Telefone</label>
+                                    <div class="col-sm-10">
+                                    <input type="tel" class="form-control" id="inputTel3" placeholder="(**)*****-****">
+                                    </div>
+                                </div>
+                                                                
+                                <button type="submit" onclick="exibirMensagem()"class="btn btn-primary">Enviar</button>
+                            </form>
+                            
+                        </div>                      
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col">
+          <div class="map-responsive">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.1764002342215!2d-47.91553542486985!3d-15.794649984845808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3a8573c445db%3A0x3eecc7448f1a024b!2sSenai%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1691765277835!5m2!1spt-BR!2sbr" style="border: none; box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.9)" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>         
+            
+      
+        <!--MEU CSS-->
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+
+  
+        <style>
+          .container{
+            background-color: white;
+            border-top: 100px;
+          }
+
+        
+          .map-responsive {
+          overflow: hidden;
+          padding-bottom: 56.25%; /* Proporção do mapa (9:16) */
+          position: relative;
+          height: 0;
+        }
+
+        .map-responsive iframe {
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          position: absolute;
+        }
+          
+
+        </style>
+  
+        <!--JS Bootstrap-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      
+    </body>
+
+      <!--MEU CSS-->
+      <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+      <footer>
+        <div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">© 2023 EdgeGames</p>
+        
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+        
+            <ul class="nav col-md-4 justify-content-end">
+              <li class="nav-item"><a href="../Page/index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+              <li class="nav-item"><a href="../SitesSeconds/Contato.html" class="nav-link px-2 text-body-secondary">Contato</a></li>
+              <li class="nav-item"><a href="https://www.facebook.com/?locale=pt_BR" class="nav-link px-2 text-body-secondary">Facebook</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+          </footer>
+        </div>
+      </footer>
+
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
